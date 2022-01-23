@@ -1,0 +1,29 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance Project (PROJECT-135-137)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="background.jpeg" style="background-size: cover; text-align: center;">
+    <h1 class="btn-warning" style="padding: 10px; margin-top: 0px;">Object Finder Web App
+    <marquee style="color: black; font-size: 27; border: purple 5px solid">Note : Enter any object that you would like to find in your webcamera.</marquee>
+    </h1>
+    
+    <input type="text" id="inputbox" placeholder="Enter object here">
+    <button onclick="start()" class="btn btn-danger"id="start_btn">Start</button>
+    
+
+    <label class="btn btn-primary" id="status"></label>
+
+</body>
+<script src="main.js"></script>
+</html>
